@@ -1,0 +1,16 @@
+{
+  "description": "search for github repos",
+  "x-api-gateway": {
+    "method": "get",
+    "path": "/repos/",
+    "parameters":[
+      {
+        "name": "q",
+        "in": "query",
+        "description":"query string to search",
+        "required": true,
+        "type": "string"
+      }
+    ]
+  }
+}
