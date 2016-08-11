@@ -20,7 +20,7 @@ class ApexProject:
             self.swagger_func_template = self._parsed['x-api-gateway']['swagger-func-template']
 
         # get base dir
-        find_dir = re.compile(r"^(.+)/([^/]+)$")
+        find_dir = re.compile(r"^(.+)[/\\]([^/\\]+)$")
         check = find_dir.match(self.path)
         self.directory = check.group(1)
 
