@@ -4,7 +4,7 @@ const chai = require('chai').use(require('sinon-chai'))
   , expect = chai.expect
   , sinon = require('sinon')
   , Repository = require('../../../model/Repository')
-  , MockContext = require('../../../lib/mock-lambda-context')
+  , MockContext = require('mock-lambda-context')
   , getRepositories = require('../src/index').default;
 
 require('co-mocha');

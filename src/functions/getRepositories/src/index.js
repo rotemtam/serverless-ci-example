@@ -1,7 +1,7 @@
 'use strict';
 
 const Repository = require('../../../model/Repository')
-  , LambdaRunner = require('../../../lib/lambda-co-runner');
+  , LambdaRunner = require('co-lambda-runner');
 
 function *main(e) {
   let query = e.queryParams.q
