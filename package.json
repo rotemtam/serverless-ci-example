@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.13.1",
+    "axios": "^1.6.0",
     "co": "^4.6.0",
     "co-lambda-runner": "^1.0.0",
     "mock-lambda-context": "0.0.1"
